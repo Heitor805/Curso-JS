@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background:white;
+            color: blueviolet;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai os estudos</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
+    <div id="msg">Clique em mim</div> <!-- designa uma ID para o elemento-->
+    <script>
+        var corpo = window.document.body 
+        //cria uma variavel corpo para agora atuar como body
+        var p1 = window.document.getElementsByTagName('p')[1] 
+        //cria uma variavel para selecionar elementos, paragrafo 1=0
+        var d = window.document.getElementById('msg')
+        //Seleciona o elemento pelo ID atribuido
+        d.style.color = 'black'
+         //o innerHTML puxa a formatação do código, o innerText apenas o texto
+         var e = window.document.querySelector('div#msg')
+         //div é representada por uma "#" e classes diferentes por um "."
+         e.style.background = "yellow"
+    </script>
+</body>
+</html>

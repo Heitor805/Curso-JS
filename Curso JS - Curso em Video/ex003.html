@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa :)</title> 
+    <style> /* customizar */
+        body {
+            background-color: white;
+            color: red; 
+            font: normal 25pt arial;
+        }
+        h1 {color: aqua;}
+        h3 {color:magenta}
+    </style>
+</head>
+<body>
+    <h1>olá, mundo!</h1> <!--corpo do texto do site-->
+    <h2>salve humanidade</h2>
+    <h3>eu to treinando programar</h3>
+    <p>me livrei da maldição</p> <!--paragráfo-->
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //janela q cria var n1 e converte a resposta em um número para o computador compreender
+        var n2 = Number(window.prompt('Digite outro número: ')) //janela q cria var n2
+        var s = n1 + n2 //janela q cria soma n1 com n2
+        window.alert('A soma dos valores é: ' + s)
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // '+' serve tanto para adição quanto concatenação
+        //number + number = adição
+        //string + string = concatenação
+        //parseInt são para número inteiros, parseFloat para números quebrados, porém é possível escrever apenar Number no lugar dos dois
+        //String(n) no começo ou n.toString no final converte ma variavel para string
+        //crase(``) pode ser usado para simplificar interação entre vars, coloca a var entre {} e adicione um $ antes
+    </script>
+</body>
+</html>
