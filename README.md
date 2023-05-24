@@ -20,3 +20,4 @@
  <li><a href="Curso JS - Curso em Video/exercícios pt5/modelo.html" target="_blank">ex04</a></li>
  <li><a href="Curso JS - Curso em Video/exercícios pt6/modelo.html" target="_blank">ex05</a></li>
  </ul>
+ <p>As demais aulas e atividades estão em programação Javascript</p>
